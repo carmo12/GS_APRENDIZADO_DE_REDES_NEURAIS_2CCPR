@@ -1,0 +1,6 @@
+# Planilha original da SSP (108 MB, acima do limite do GitHub): baixe pelo link do README
+data/CelularesSubtraidos_*.xlsx
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/

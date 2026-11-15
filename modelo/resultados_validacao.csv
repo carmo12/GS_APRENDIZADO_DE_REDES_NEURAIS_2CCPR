@@ -1,0 +1,5 @@
+modelo,parametros,epocas_treinadas,acuracia,precision,recall,f1,f1_macro,acc_treino_final,loss_treino_final,loss_val_final,loss_val_minima
+1_Rasa,1233,30,0.667,0.539,0.693,0.606,0.659,0.699,0.711,0.59,0.59
+2_Media_Dropout,6977,11,0.672,0.543,0.7,0.612,0.664,0.699,0.721,0.591,0.587
+3_Profunda_SemReg,60673,60,0.639,0.509,0.651,0.571,0.629,0.798,0.443,1.911,0.573
+4_Media_Dropout_L2,6977,15,0.677,0.55,0.701,0.616,0.669,0.693,0.741,0.598,0.597
