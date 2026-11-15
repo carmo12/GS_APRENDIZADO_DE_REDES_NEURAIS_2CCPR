@@ -5,7 +5,9 @@ Segurança pública inteligente em São Paulo · classificação de ocorrências
 
 ## 🔗 Aplicação web
 
-**https://carmo12.github.io/gs-mlp-roubo-furto-sp/**
+**https://carmo12.github.io/GS_APRENDIZADO_DE_REDES_NEURAIS_2CCPR/**
+
+Repositório: <https://github.com/carmo12/GS_APRENDIZADO_DE_REDES_NEURAIS_2CCPR>
 
 Você escolhe região, bairro, tipo de local, período, dia da semana e marca do celular, e a MLP devolve a classe estimada
 (**roubo** ou **furto**) com as probabilidades de cada uma. A página roda inteira no navegador, com os pesos da rede treinada.
@@ -55,7 +57,7 @@ Treinar, comparar e selecionar uma **Multilayer Perceptron (MLP)** que, a partir
 ## Estrutura do repositório
 
 ```
-gs-mlp-roubo-furto-sp/
+GS_APRENDIZADO_DE_REDES_NEURAIS_2CCPR/
 ├── README.md
 ├── requirements.txt
 ├── preparar_dados.py                 # recorte, rótulo, deduplicação e amostra (fonte -> CSV)
@@ -100,7 +102,7 @@ O treinamento das 4 arquiteturas leva cerca de 1 a 2 minutos em CPU. As sementes
 ### Publicar a aplicação (GitHub Pages)
 1. No GitHub, abra o repositório e vá em **Settings → Pages**.
 2. Em **Build and deployment**, escolha **Source: Deploy from a branch**, **Branch: `main`** e a pasta **`/docs`**, e clique em **Save**.
-3. Em 1 ou 2 minutos a página fica no ar em `https://<seu-usuario>.github.io/gs-mlp-roubo-furto-sp/`.
+3. Em 1 ou 2 minutos a página fica no ar em `https://carmo12.github.io/GS_APRENDIZADO_DE_REDES_NEURAIS_2CCPR/`.
 
 ---
 
